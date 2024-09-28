@@ -6,7 +6,6 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.ShiftScheduler import ShiftScheduler
 import matplotlib.pyplot as plt
-import japanize_matplotlib
 
 st.sidebar.title("データのアップロード")
 
